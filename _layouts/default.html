@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> {{page.title}} </title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway" rel="stylesheet">
+<script src="https://use.fontawesome.com/5d58ec90b4.js"></script>
+<link href="css/main.css" rel="stylesheet"  type="text/css">
+
+<!-- always stylesheet last! -->
+
+</head>
+
+<body>
+
+  <!-- header section! -->
+  <header>
+    <nav>
+      <img src="https://static.wixstatic.com/media/09a0ee_bfbb127a85bf4d81aa595263cad673ec~mv2.png" />
+      <a href="html.about">About</a>
+      <a href="html.skills">Skills</a>
+      <a href="html.experience">Experience</a>
+      <a href="html.contact">Contact</a>
+    </nav>
+    <div>
+      <h1>Kyomi Wade</h1>
+      <h2>Writer, Traveller, Marketer</h2>
+      <!-- add icon here! -->
+      <p>London Town</p>
+    </div>
+  </header>
+
+  {{content}}
+
+  <!--this is the footer section!-->
+  <footer>
+    <h2>Contact</h2>
+    <form method="POST" action="http://formspree.io/wadingwadetravel@gmail.com">
+    <label for="email">Your Email</label>
+      <input type="email" name="email" placeholder="Your email">
+    <label for="name">Your Name</label>
+    <input type="name" name="name" placeholder="Your Name">
+    <label for="message">What's on your mind?</label>
+    <textarea name="message" placeholder="Your message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+    <div>
+      <a href="https://www.facebook.com/kyomi.wade" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/kyomiwade/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/kyomiwade/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+
+  </html>

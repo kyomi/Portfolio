@@ -1,0 +1,147 @@
+/*reset styles*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*General styles*/
+header, section, footer{
+  padding: 3%;
+}
+
+
+.fa {
+  color: #FABABD;
+font-size: 50px;
+}
+
+h1, h2, h3{
+font-family: 'Libre Baskerville', serif;
+}
+
+p, a{
+font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+/*header section*/
+
+header{
+  background-image: url('https://media.giphy.com/media/3oEjHM4RgZhjypzpFS/giphy.gif');
+}
+
+nav a{
+color: black;
+text-decoration: none;
+padding: 10px;
+text-align: right;
+}
+
+nav img{
+  width: 100px;
+}
+
+header, .about-me{
+  text-align:center;
+}
+
+header div{
+  background-color: #FABABD;
+  border-radius: 10%;
+  color: black;
+  margin: 12% auto;
+  width: 400px;
+  display: block;
+}
+
+header h1{
+  font-size: 50px;
+}
+/*about me section*/
+
+.about-me{
+  border: 2px solid white;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+}
+.about-me div{
+background-color: white;
+width: 800px;
+margin: 5% auto;
+border: 10px solid #FABABD;
+padding: 5%;
+}
+
+.about-me h2{
+  padding: 10px;
+  color: #1BB782
+}
+
+
+/*my skills section*/
+
+.skills-box div{
+padding: 3%
+margin: 1% auto;
+}
+
+.my-skills{
+  background-color: white;
+  text-align: center;
+}
+
+/*map section*/
+.map-section{
+  background-color: lightgrey;
+}
+
+.map{
+  width: 70%;
+  margin: 4% auto;
+  display: block;
+}
+
+/*my experiences section*/
+
+
+/*footer section*/
+
+footer{
+  background-color: lightgrey;
+  color: white;
+  text-align: center;
+}
+footer i{
+  color: grey;
+}
+
+footer .fa{
+  color: white;
+}
+
+footer h2{
+  color: #1BB782;
+}
+
+footer a{
+  padding: 1%;
+}
+
+footer form{
+  padding: 2%;
+}
+
+
+CSS  reset
+
+Add padding and margin to each section
+
+style icons
+
+background colours + images
